@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    font-family: 'Varela Round', sans-serif;
+    background-color: #f8fdf9;
+}
+
+li:hover{
+    color: #00df9a;
+}
