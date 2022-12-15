@@ -1,11 +1,19 @@
 import React from 'react'
-import Typed from 'react-typed';
+import PhoneHome from './next/phone/PhoneHome'
+import PcHome from './next/pc/PcHome'
+import PhoneFeature from './next/phone/PhoneFeature'
+import PcFeature from './next/pc/PcFeature'
 
 export default function Home() {
   return (
-    <>
-    <p>this is home</p>
-     <Typed strings={['Quicky Grow Your Money with Bullz','Get 10% return on your investment']}typeSpeed={40}/>
-    </>
+    <div>
+    
+    <PhoneHome/>
+    <PhoneFeature/>
+    <PcHome/>
+    <PcFeature/>
+
+
+    </div>
   )
 }
