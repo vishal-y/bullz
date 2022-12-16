@@ -16,7 +16,7 @@ export default function PcFeature() {
         <br />
         <p className='flex flex-row gap-5 justify-center items-center'><AiOutlineCheck style={{color:"#00df9a"}}/> Invest and enjoy</p>
     
-        <div className=" bg-[#00df9a] gap-5 mt-[5%] ml-[14vw] p-2 w-[40vw] md:w-[12vw] rounded-full hover:bg-[#0bc57e] shadow-xl">
+        <div className=" bg-[#00df9a] flex justify-center items-center gap-5 mt-[5%] ml-[14vw] p-2 w-[40vw] md:w-[12vw] rounded-full hover:bg-[#0bc57e] shadow-xl">
         <button className='text-white text-lg '>Get Portfolio</button>
         <AiOutlineArrowRight style={{color: "white"}}/>
         </div>
