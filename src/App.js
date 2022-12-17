@@ -3,6 +3,10 @@ import Home from './components/Home'
 import Navbar from './components/Navbar'
 import Dashboard from './components/Dashboard'
 import NotFound from './components/NotFound.jsx'
+import lottie from 'lottie-web';
+import { defineElement } from 'lord-icon-element';
+
+defineElement(lottie.loadAnimation);
 
 export default function App() {
   return (

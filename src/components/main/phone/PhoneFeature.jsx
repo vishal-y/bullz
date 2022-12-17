@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 
 export default function Feature() {
   return (
-    <div className='border px-14 flex flex-col justify-center items-center md:hidden'>
+    <div className='px-14 flex flex-col justify-center items-center md:hidden'>
 
         <p className='text-3xl font-bold mt-[15%] mb-[10%] text-center'>Create your Bullzz portfolio today.</p>
         <p className='text-gray-600 text-center mb-[10%]'>Create account at bullzz in minutes. Fill the form , choose your plan , invest with easy options , no complicated steps. BUllzz does not keep funds , Bullzz grows them.</p>

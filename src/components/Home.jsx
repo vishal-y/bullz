@@ -1,8 +1,10 @@
 import React from 'react'
-import PhoneHome from './next/phone/PhoneHome'
-import PcHome from './next/pc/PcHome'
-import PhoneFeature from './next/phone/PhoneFeature'
-import PcFeature from './next/pc/PcFeature'
+import PhoneHome from './main/phone/PhoneHome'
+import PcHome from './main/pc/PcHome'
+import PhoneFeature from './main/phone/PhoneFeature'
+import PcFeature from './main/pc/PcFeature'
+import Footer from './Footer'
+import Promotion from './promotion'
 
 export default function Home() {
   return (
@@ -12,7 +14,8 @@ export default function Home() {
     <PhoneFeature/>
     <PcHome/>
     <PcFeature/>
-
+    <Promotion/>
+    <Footer/>
 
     </div>
   )

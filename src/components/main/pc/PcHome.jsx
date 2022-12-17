@@ -1,12 +1,13 @@
 import React from 'react'
 import { AiOutlineArrowRight , AiOutlineArrowDown } from 'react-icons/ai'
-// import { BsArrowDown } from 'react-icons/bs'
+import Line from "../../../assets/line.png"
 
 import Typed from 'react-typed';
 
 export default function PhoneHome() {
     return (
-        <div id='hero' className=' hidden bg-[#f8fdf9] md:block px-14'>
+        <div id='hero' className=' hidden bg-[#f8fdf9] md:block px-14 overflow-hidden'>
+            <img src={Line} alt="Line" className='absolute -top-40 -left-12 h-96' />
             <div className=' md:mt-[10%] text-center flex flex-col justify-center items-center'>
                 <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold md:py-6'>GROW WITH BULLZ</h1>
                 <div className='flex justify-center items-center text-[#00fd9a]'>

@@ -4,8 +4,8 @@ import bg from './../../../assets/Revenue-bro.png'
 
 export default function PhoneHome() {
   return (
-    <div className='max-w-[760] bg-[#f8fdf9] md:hidden lg:hidden flex flex-col justify-center items-center'>
-      
+    <div className='max-w-[760] h-full bg-[#f8fdf9] md:hidden lg:hidden flex flex-col justify-center items-center overflow-hidden'>
+  
       <div >
         <img src={bg} alt="hero" className='h-[50vh] '/>
       </div>
@@ -15,7 +15,7 @@ export default function PhoneHome() {
       <p className='text-gray-900 text-xl mt-6 mx-8 text-center '>Bullz is a handy platform to invest your money and get return</p>
       </div>
       
-      <div className="flex flex-row gap-5 justify-center items-center bg-[#00df9a] mt-6 p-4 w-[50vw] rounded-full hover:bg-[#0bc57e] shadow-xl">
+      <div className="flex flex-row gap-5 justify-center items-center z-50 bg-[#00df9a] mt-6 p-4 w-[50vw] rounded-full hover:bg-[#0bc57e] shadow-xl">
         <button className='text-white text-xl '>Get Started  </button>
         <AiOutlineArrowRight style={{color: "white"}}/>
       </div>
