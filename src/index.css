@@ -2,10 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+   overflow-x: hidden;
+}
 
 body{
     font-family: 'Varela Round', sans-serif;
     background-color: #f8fdf9;
+}
+
+::-webkit-scrollbar{
+    width:.6rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background:#00df9a;
+    border-radius: 40px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #53daaf; 
 }
 
 li:hover{

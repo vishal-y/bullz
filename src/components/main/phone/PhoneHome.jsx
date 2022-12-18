@@ -4,7 +4,7 @@ import bg from './../../../assets/Revenue-bro.png'
 
 export default function PhoneHome() {
   return (
-    <div className='max-w-[760] h-full bg-[#f8fdf9] md:hidden lg:hidden flex flex-col justify-center items-center overflow-hidden'>
+    <div className=' max-w-[760] h-full bg-[#f8fdf9] md:hidden lg:hidden flex flex-col justify-center items-center overflow-hidden'>
   
       <div >
         <img src={bg} alt="hero" className='h-[50vh] '/>

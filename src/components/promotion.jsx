@@ -1,5 +1,5 @@
 import React from 'react'
-import mac from '../assets/mac.png'
+import mac from '../assets/mac_all.png'
 import {BsGraphUp} from 'react-icons/bs'
 
 
@@ -9,9 +9,9 @@ export default function promotion() {
        
 
 {/* pc */}
-        <div className='pt-36 pb-14  justify-center items-center hidden md:flex'>
+        <div className='pt-16 pb-14  justify-center items-center hidden md:flex'>
 
-            <div className='flex flex-row justify-evenly items-center bg-[#00bf71] rounded-3xl'>
+            <div className='flex flex-row justify-evenly items-center bg-[#00df9a] w-[82vw] rounded-3xl'>
                 
                 <div className='px-10 pl-14'>
                     <h1 className='text-white text-2xl md:text-4xl font-extrabold '>Get your <br /> Bullzz now ! </h1>
@@ -22,8 +22,8 @@ export default function promotion() {
                 </div>
 
                 <div id='left' className='pl-8 '>
-                    <div className='md:h-[24rem] w-[30vw] rounded-full bg-[#26c886]'>
-                        <img src={mac} alt="mac" className='h-[30vh] relative top-16 left-10'/>
+                    <div className='md:h-[24rem] w-[30vw] rounded-full bg-[#5cdca9]'>
+                        <img src={mac} alt="mac" className='h-[30vh] relative top-20 left-10'/>
                         {/* <div className='h-[3vh] w-[12vw] bg-gray-800 opacity-20 relative top-16 mt-2 rounded-full left-32'></div> */}
                     </div>
                 </div>
@@ -36,9 +36,9 @@ export default function promotion() {
     
 
 {/* phone */}
-        <div className='pt-32 pb-8 px-6 justify-center items-center md:hidden hover:scale-105'>
+        <div className='pt-14 pb-8 px-6 justify-center items-center md:hidden hover:scale-105'>
 
-            <div className='flex flex-col justify-evenly items-center bg-[#00bf71] rounded-3xl'>
+            <div className='flex flex-col justify-evenly items-center bg-[#00df9a] rounded-3xl'>
                 
                 <div id='right' className=' pl-8 p-4 flex justify-center items-center'>
                         <div className='rounded-full bg-[#26c886]'>

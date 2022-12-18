@@ -4,17 +4,20 @@ import PcHome from './main/pc/PcHome'
 import PhoneFeature from './main/phone/PhoneFeature'
 import PcFeature from './main/pc/PcFeature'
 import Footer from './Footer'
+import Numbers from './Numbers'
 import Promotion from './promotion'
+
 
 export default function Home() {
   return (
-    <div>
+    <div className='overflow-hidden'>
     
     <PhoneHome/>
     <PhoneFeature/>
     <PcHome/>
     <PcFeature/>
     <Promotion/>
+    <Numbers/>
     <Footer/>
 
     </div>

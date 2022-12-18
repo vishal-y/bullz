@@ -21,7 +21,7 @@ export default function Navbar() {
 
       // border border-gray-300 bg-gray-100 rounded-xl shadow-xl
 
-      <div className='text-black bg-[#f8fdf9] flex justify-between items-center h-20 max-w-[1240px] mx-auto px-4'>
+      <div className='text-black overflow-hidden bg-[#f8fdf9] flex justify-between items-center h-20 max-w-[1240px] mx-auto px-4'>
         <div className='flex flex-row text-center items-center'>
           {/* <BiMoon size={50} />
           <BsSun size={50} /> */}
